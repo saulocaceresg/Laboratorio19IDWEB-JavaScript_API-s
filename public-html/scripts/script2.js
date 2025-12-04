@@ -1,5 +1,5 @@
 // 4.	Usa .then para obtener altura y peso de Pikachu
-console.log("Ejercicio 2 (5.)\n\"Altura y peso de Pikachu\"");
+console.log("Ejercicio 2 (4.)\n\"Altura y peso de Pikachu\"");
 
 fetch(`https://pokeapi.co/api/v2/pokemon/pikachu`)
     .then(response => response.json())

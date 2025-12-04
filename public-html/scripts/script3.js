@@ -1,5 +1,5 @@
 // 5.	Usa async/await para obtener altura y peso de Pikachu
-console.log("Ejercicio 3 (6.)\n\"Altura y peso de Pikachu (async/await)\"");
+console.log("Ejercicio 3 (5.)\n\"Altura y peso de Pikachu (async/await)\"");
 
 async function pesoAlturaPikachu() {
     console.log("'Pikachu'");

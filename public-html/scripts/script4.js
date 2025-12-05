@@ -1,5 +1,5 @@
 // 6.	Muestra en consola la URL de sprites.front_default de Charizard
-console.log("Ejercicio 4 (6.)\n\"front default de charizard (async/await)\"");
+console.log("Ejercicio 4 (6.)\n\"front default de charizard\"");
 
 fetch(`https://pokeapi.co/api/v2/pokemon/charizard`)
     .then(response => response.json())

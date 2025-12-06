@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABORATORIO 19 - JavaScript: API's | Pokemon con input</title>
+</head>
+<body>
+    <!-- 1.	Crear un html que pida por input un Pokémon y muestre sus stats: hp, attack, defense, speed, special-attack, special-defense
+        Muestra cada estadística en una lista o tabla
+        Tips: Los stats vienen en data.stats[i].stat.name y en data.stats[i].base_stat
+     -->
+    <h3 id="ej11">Ejercicio 11 - Estadísticas de un pokemon (con input)</h3>
+    <form action="#" id="frm-ej11">
+        <fieldset id="fld-ej11">
+            <legend>Estadísticas de un pokemon</legend>
+            <label for="pokemon2">Ingrese datos: </label>
+            <input type="text" name="pokemon2" id="pokemon2" placeholder="Escriba el nombre de un pokemon" required pattern="[A-Za-z]+" title="Solo letras" style="width: 209px;">
+            <button id="btn-ej11">Cargar estadísticas</button>
+        </fieldset>
+    </form>
+    <script src="scripts/script11.js"></script>
+</body>
+</html>
